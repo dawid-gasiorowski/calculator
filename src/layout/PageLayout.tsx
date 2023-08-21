@@ -1,20 +1,17 @@
-import { ReactNode } from 'react';
-import logo from '../assets/logo.svg';
+import { ReactNode } from "react";
 
 interface Props {
   children: ReactNode;
 }
 
-const PageLayout = ({children}: Props) => {
+const PageLayout = ({ children }: Props) => {
   return (
     <div>
       <header>
-        <img src={logo} className="App-logo" alt="logo" />
-        Offer Calculator
+        {/* <img src={logo} className="App-logo" alt="logo" />
+        Offer Calculator */}
       </header>
-      <main>
-        {children}
-      </main>
+      <main>{children}</main>
     </div>
   );
 };

@@ -1,7 +1,6 @@
-import './App.css';
-import OfferCalculatorPage from './pages/OfferCalculatorPage';
-import PageLayout from './layout/PageLayout';
-
+import "./App.css";
+import OfferCalculatorPage from "./pages/OfferCalculatorPage";
+import PageLayout from "./layout/PageLayout";
 
 function App() {
   return (
